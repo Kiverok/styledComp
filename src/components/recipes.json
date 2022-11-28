@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "Name": "Christmas pie",
+    "url": "https://www.bbcgoodfood.com/recipes/2793/christmas-pie",
+    "time": 20,
+    "calories": 350,
+    "servings": 6,
+    "Description": "Combine a few key Christmas flavours here to make a pie that both children and adults will adore",
+    "difficulty": "easy",
+    "Author": "Mary Cadogan"
+  },
+  {
+    "id": 2,
+    "Name": "Simmer-&-stir Christmas cake",
+    "url": "https://www.bbcgoodfood.com/recipes/1160/simmerandstir-christmas-cake",
+    "time": 15,
+    "calories": 200,
+    "servings": 7,
+    "Description": "An easy-to-make alternative to traditional Christmas cakes which requires no beating",
+    "difficulty": "medium",
+    "Author": "Mary Cadogan"
+  },
+  {
+    "id": 3,
+    "Name": "Christmas cupcakes",
+    "url": "https://www.bbcgoodfood.com/recipes/72622/christmas-cupcakes",
+    "time": 30,
+    "calories": 400,
+    "servings": 5,
+    "Description": "These beautiful and classy little cakes make lovely gifts, and kids will enjoy decorating them too",
+    "difficulty": "medium",
+    "Author": "Sara Buenfeld"
+  },
+  {
+    "id": 4,
+    "Name": "Christmas buns",
+    "url": "https://www.bbcgoodfood.com/recipes/1803633/christmas-buns",
+    "time": 25,
+    "calories": 350,
+    "servings": 9,
+    "Description": "Paul Hollywood's fruit rolls can be made ahead then heated up before adding a glossy glaze and citrus icing",
+    "difficulty": "hard",
+    "Author": "Paul Hollywood"
+  },
+  {
+    "id": 5,
+    "Name": "Christmas cupcakes",
+    "url": "https://www.bbcgoodfood.com/recipes/981634/christmas-cupcakes",
+    "time": 40,
+    "calories": 450,
+    "servings": 6,
+    "Description": "Made these for the second time today, and I have to say they turned out great! I've got large muffin tins and the mixture made 15 muffins, will definetely make these again at christmas time and decorate festively.",
+    "difficulty": "easy",
+    "Author": "Barney Desmazery"
+  },
+  {
+    "id": 6,
+    "Name": "Christmas slaw",
+    "url": "https://www.bbcgoodfood.com/recipes/890635/christmas-slaw",
+    "time": 30,
+    "calories": 400,
+    "servings": 8,
+    "Description": "A nutty winter salad which is superhealthy, quick to prepare and finished with a light maple syrup dressing",
+    "difficulty": "medium",
+    "Author": "Good Food"
+  }
+]
