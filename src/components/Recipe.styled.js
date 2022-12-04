@@ -23,6 +23,10 @@ gap: 8px;
 export const Badge = styled.span`
 padding: 8px 16px;
 border-radius: 16px;
-background-color: lightgray;
+background-color: ${p => {
+    return p.isActive ? "orangered" : "lightgray"
+}};
+color: ${p => {
+    return p.isActive ? "white" : "black"
+}}
 `;
-
