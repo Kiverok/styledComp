@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import { BsAlarm } from 'react-icons/bs';
 import { HiOutlineChartPie, HiOutlineChartBar } from 'react-icons/hi';
-import { RecipeInfo, InfoBlock, Badge, BadgeList } from './Recipe.styled';
+import { RecipeInfo, InfoBlock, Badge, BadgeList, Image, Container } from './Recipe.styled';
 
 
 
 export const Recipe = ({ recipe: {Name, time, servings, calories, difficulty, url} }) => {
     return (
-        <div>
+        <Container>
             <h2>{Name}</h2>
-            <img src={url} alt={Name} width="320" />
+            <Image src={url} alt={Name} width="320" />
             <RecipeInfo>
                 <InfoBlock> <BsAlarm size={24} /><span>{time} min</span></InfoBlock>
                 <InfoBlock> <HiOutlineChartPie size={24}/> <span>{servings} servings</span></InfoBlock>
@@ -23,7 +23,7 @@ export const Recipe = ({ recipe: {Name, time, servings, calories, difficulty, ur
                 <Badge isActive={difficulty === 'hard'}>Hard</Badge>
                 </BadgeList>
             </div>
-        </div>
+        </Container>
     )
 };
 Recipe.propTypes = {
